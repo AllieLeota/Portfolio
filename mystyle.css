@@ -1,0 +1,61 @@
+
+
+body {background-color: 90fb66}
+div.wrapper{
+width:100%}
+
+div.top { 
+position:static; top: 0px; height: 100px; background-color: 1D8B15; text-align: center; width:1300px}
+
+@media only screen and (max-width: 2000px) {
+    .left {
+        width:100%;}
+    .center {
+        width:100%;}
+    .right {
+        width:100%;}
+
+div.left {
+position:absolute; left: 5px; width: 300px; top:150px; bottom:0px; right:1000px}
+
+div.center {
+position:absolute; left: 350px; width:600; top:150px; right:350; bottom:50px}
+
+div.right {
+position:absolute; left: 1000px; right: 5px; width:300px; top:150px; bottom:0px}
+
+div.footer {
+postion:relative; bottom:0px; width:1300px; top:6000px; float:bottom; clear:both}
+
+
+
+
+p {font-family:cabin, sans-serif; font-size: 1.2em; margin: 20px}
+p.blurb {text-indent:50px; text-align:justify}
+p.category {font-family: orbitron; font-variant: small-caps; font-size: 1.7em}
+p.info {text-align: center; font-size: .5em}
+p.links {padding-left:20px font-size:1.2em}
+
+h1 {font-family: "orbitron", sans-serif; font-size: 4em; color: 35c2ee; font-variant: small-caps}
+
+ul.navigation {font-family:cabin, sans-serif; font-size:1.2em; list-style-type:none}
+ul.subset {font-size:.7em}
+li {font-family:cabin, sans-serif; font-size:1.2em; display:block;
+    padding: 2px}
+ul.food
+li {font-family:cabin, sans-serif; font-size:1.2em; display:block;
+    padding: 2px}
+li.external {font-family:cabin, sans-serif; font-size:1.2em; display:block;
+    padding: 2px;} 
+
+span.navigation {border-style:outset;}
+span.food {color: 064673}
+span.external {color: D248FF;}
+
+a:link {color:blue}
+a:visited {color:purple}
+a:hover {color:green}
+a:active {color:red}
+
+
+
