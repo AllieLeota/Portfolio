@@ -4,7 +4,7 @@ body {background-color: 90fb66}
 
 
 div.top { 
-display: inline-block: vertical-align:top; height: 150px; horizontal-align: center; background-color: 1D8B15; text-align: center; width:device-width;}
+display: inline-block: vertical-align:top; height: 150px; horizontal-align: center; background-color: 1D8B15; text-align: center; width:device-width; min-width: 400px}
 
 
 @media only screen and (max-width: 2000px) {
@@ -19,7 +19,7 @@ div.left {display: inline-block; vertical-align: top; horizontal align: left; wi
 
 div.center {display: inline-block; vertical-align: top; horizontal align: center; text-align: center; width: 40%; padding: 25px; background-color:90fb66; min-width: 400px}
 
-div.right {display: inline-block; horizontal-align: right; vertical-align: top; width: 20%; padding: 25px;}
+div.right {display: inline-block; horizontal-align: right; vertical-align: top; width: 20%; padding: 25px; min-width: 400px;}
 
 div.footer {float: bottom; clear: both; margin: auto; width: 100%; padding: 25px;}
 
