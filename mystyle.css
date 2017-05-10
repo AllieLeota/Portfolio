@@ -3,7 +3,9 @@
 body {background-color: 90fb66}
 
 
-div.top {display: inline-block; vertical-align:top; height: 150px; horizontal-align: center; background-color: 1D8B15; text-align: center; min-width:device-width; width: 100%;}
+
+
+div.top {display: inline-block; vertical-align:top; max-height: 150px; height: 9vw; horizontal-align: center; background-color: 1D8B15; text-align: center; min-width:device-width; width: 100%; font-family: "orbitron", sans-serif; font-size: 70px; font-size: 6vw; color: 35c2ee; font-variant: small-caps;}
 
 div.image {display: inline-block; vertical-align: top; horizontal align: left; width: 20%; padding: 25px; min-width: 350px; max-width:device-width;}
 
@@ -16,18 +18,12 @@ div.right {display: inline-block; horizontal-align: right; vertical-align: top; 
 div.footer {float: bottom; clear: both; margin: auto; width: 100%; padding: 25px; max-width:device-width;}
 
 
-nav select {display: none;}
-
-@media (max-width: 960px) {nav ul     { display: none; } nav select { display: inline-block; }}
-
-
 p {font-family:cabin, sans-serif; font-size: 1.2em; margin: 20px}
 p.blurb {text-indent:50px; text-align:justify;}
 p.category {font-family: orbitron; font-variant: small-caps; font-size: 1.7em}
 p.info {text-align: center; font-size: .5em; color: black; text-decoration: none}
 p.links {padding-left:20px font-size:1.2em}
 
-h1 {font-family: "orbitron", sans-serif; font-size: 4em; color: 35c2ee; font-variant: small-caps;}
 
 ul.navigation {font-family:cabin, sans-serif; font-size:1.2em; list-style-type:none}
 ul.subset {font-size:.7em}
