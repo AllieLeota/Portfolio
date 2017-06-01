@@ -5,7 +5,7 @@ body {background-color: 99FFA1}
 
 
 
-div.top {display: inline-block; vertical-align:top; max-height: 150px; height: 9vw; horizontal-align: center; background-color: 1D8B15; text-align: center; min-width:device-width; width: 100%; font-family: "orbitron", sans-serif; font-size: 70px; font-size: 6vw; color: 35c2ee; font-variant: small-caps;}
+div.top {display: inline-block; vertical-align:top; max-height: 150px; height: 9vw; horizontal-align: center; background-color: 1D8B15; text-align: center; min-width:device-width; width: 100%; font-family: "orbitron", sans-serif; font-size: 70px; font-size: 6vw; color: 35c2ee; font-variant: small-caps; margin-top:40px;}
 
 div.left {display: inline-block; vertical-align: top; horizontal align: left; width: 20%; padding: 25px; min-width: 350px; max-width:device-width;}
 
