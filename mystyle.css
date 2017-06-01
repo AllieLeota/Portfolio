@@ -7,8 +7,6 @@ body {background-color: 90fb66}
 
 div.top {display: inline-block; vertical-align:top; max-height: 150px; height: 9vw; horizontal-align: center; background-color: 1D8B15; text-align: center; min-width:device-width; width: 100%; font-family: "orbitron", sans-serif; font-size: 70px; font-size: 6vw; color: 35c2ee; font-variant: small-caps;}
 
-div.image {display: inline-block; vertical-align: top; horizontal align: left; width: 20%; padding: 25px; min-width: 350px; max-width:device-width;}
-
 div.left {display: inline-block; vertical-align: top; horizontal align: left; width: 20%; padding: 25px; min-width: 350px; max-width:device-width;}
 
 div.center {display: inline-block; vertical-align: top; horizontal align: center; text-align: center; width: 40%; padding: 25px; background-color:90fb66; min-width: 350px; max-width:device-width;}
@@ -18,56 +16,43 @@ div.right {display: inline-block; horizontal-align: right; vertical-align: top; 
 div.footer {float: bottom; clear: both; margin: auto; width: 100%; padding: 25px; max-width:device-width;}
 
 
+img.resize {width: 20%; padding: 25px; width: 300px; max-width:device-width;}
+
+
 p {font-family:cabin, sans-serif; font-size: 1.2em; margin: 20px}
 p.blurb {text-indent:50px; text-align:justify;}
 p.category {font-family: orbitron; font-variant: small-caps; font-size: 1.7em}
 p.info {text-align: center; font-size: .5em; color: black; text-decoration: none}
 p.links {padding-left:20px font-size:1.2em}
+p.team {font-family:orbitron, font-variant; font-size: 1em; margin 20px; text-align="center";}
+p.list {text-align: left; margin-left: 100px; text-indent:-150px; font-family:cabin, sans-serif; font-size:1em; margin-top: 0px; margin-bottom: 10px;}
+p.list:first-letter {margin-left: 100px; text-indent: 100px;}
 
 
-ul.navigation {font-family:cabin, sans-serif; font-size:1.2em; list-style-type:none}
-ul.subset {font-size:.7em}
-li {font-family:cabin, sans-serif; font-size:1.2em; display:block;
-    padding: 2px}
+ul.navigation {font-family:cabin, sans-serif; font-size:1.2em; list-style-type:none;}
+ul.subset {font-size:.7em; list-style-type:none;}
+li {font-family:cabin, sans-serif; font-size:1.2em; display:block; padding: 1px}
+
 ul.food
-li {font-family:cabin, sans-serif; font-size:1.2em; display:block;
-    padding: 2px}
-li.external {font-family:cabin, sans-serif; font-size:1.2em; display:block;
-    padding: 2px;} 
+li {font-family:cabin, sans-serif; font-size:1.2em; display:block; padding: 1px}
+li.external {font-family:cabin, sans-serif; font-size:1.2em; display:block; padding: 1px;} 
 
 span.navigation {border-style:outset;}
-span.food {color: 064673}
+span.food {color: 35c2ee}
 span.external {color: D248FF;}
 
-
-a:link {color:blue}
-a:visited {color:purple}
-a:hover {color:green}
-a:active {color:red}
+ul li {text-align=left}
 
 
+a:link {color:red}
+a:visited {color:35c2ee}
+a:hover{color:35c2ee}
 
-
-// Create the dropdown base
-$("<select />").appendTo("nav");
-
-// Create default option "Go to..."
-$("<option />", {
-   "selected": "selected",
-   "value"   : "",
-   "text"    : "Go to..."
-}).appendTo("nav select");
-
-// Populate dropdown with menu items
-$("nav a").each(function() {
- var el = $(this);
- $("<option />", {
-     "value"   : el.attr("href"),
-     "text"    : el.text()
- }).appendTo("nav select");
-});
-
-
-$("nav select").change(function() {
-  window.location = $(this).find("option:selected").val();
-});
+.dropbtn {background-color: #90fb66; padding: 16px; font-family: orbitron; font-variant: small-caps; font-size: 1.7em; border: none; cursor: pointer;}
+.dropdown {position: relative; display: inline-block;}
+.dropdown-content a:hover {background-color: #1D8B15}
+.dropdown:hover .dropdown-content {display: block;}
+.dropdown:hover .dropbtn {background-color: #1D8B15;}
+.dropdown-content {display: none; position: relative; background-color: #35c2ee; min-width: 160px; box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); z-index: 1;}
+.dropdown-content a { background-color: #35c2ee; padding: 1px 1px; text-decoration: none; display: block;}
+.dropdown:hover .dropbtn {background-color: #1D8B15;}
