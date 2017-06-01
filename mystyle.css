@@ -1,6 +1,6 @@
 
 
-body {background-color: 90fb66}
+body {background-color: 99FFA1}
 
 
 
@@ -9,7 +9,7 @@ div.top {display: inline-block; vertical-align:top; max-height: 150px; height: 9
 
 div.left {display: inline-block; vertical-align: top; horizontal align: left; width: 20%; padding: 25px; min-width: 350px; max-width:device-width;}
 
-div.center {display: inline-block; vertical-align: top; horizontal align: center; text-align: center; width: 40%; padding: 25px; background-color:90fb66; min-width: 350px; max-width:device-width;}
+div.center {display: inline-block; vertical-align: top; horizontal align: center; text-align: center; width: 40%; padding: 25px; min-width: 350px; max-width:device-width;}
 
 div.right {display: inline-block; horizontal-align: right; vertical-align: top; width: 20%; padding: 25px; min-width: 350px; max-width:device-width;}
 
@@ -45,10 +45,10 @@ ul li {text-align=left}
 
 
 a:link {color:red}
-a:visited {color:35c2ee}
-a:hover{color:35c2ee}
+a:visited {color:red}
+a:hover{color:red}
 
-.dropbtn {background-color: #90fb66; padding: 16px; font-family: orbitron; font-variant: small-caps; font-size: 1.7em; border: none; cursor: pointer;}
+.dropbtn {background-color: #99FFA1; padding: 16px; font-family: orbitron; font-variant: small-caps; font-size: 1.7em; border: none; cursor: pointer;}
 .dropdown {position: relative; display: inline-block;}
 .dropdown-content a:hover {background-color: #1D8B15}
 .dropdown:hover .dropdown-content {display: block;}
